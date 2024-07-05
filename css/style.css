@@ -74,11 +74,16 @@ body{
     border: 1px solid var(--color-1);
 }
 #cantidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     position: absolute;
     right: 0;
     margin-right: 5%;
     border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
 }
 .menuText{
     margin-left: 10px;
@@ -159,4 +164,8 @@ body{
     margin-bottom: 10px;
     margin-right: 10px;
     border-radius: 10px;
+}
+.productImg{
+    width: 100%;
+    height: 100%;
 }
