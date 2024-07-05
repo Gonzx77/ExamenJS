@@ -22,3 +22,18 @@ const openPantalones = async() => {
     await mPantalones();
 }
 document.openPantalones = openPantalones;
+
+const addPantalon = async() =>{
+    alert("si");
+}
+document.addPantalon = addPantalon;
+
+const addAbrigo = async() => {
+    alert("si");
+}
+document.addAbrigo = addAbrigo;
+
+const addCamiseta = async() => {
+    alert("si");
+}
+document.addCamiseta = addCamiseta;

@@ -27,7 +27,7 @@ export const mAbrigos = async() =>{
             <div class="productDivSection">
                 <p class="productName">${namee}</p>
                 <p class="productPrice">$${precio}</p>
-                <div class="productBtn" id="${id}">Agregar</div>
+                <div onclick="addAbrigo(this)" class="productBtn" id="${id}">Agregar</div>
             </div>
         </div>`;
 
