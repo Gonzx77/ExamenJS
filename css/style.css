@@ -15,7 +15,7 @@ body{
     height: calc(100vh - 40px);
     width: calc(100% - 40px);
     margin: 20px;
-    border: 1px solid black;
+    
 }
 
 
@@ -26,9 +26,6 @@ body{
     grid-template-columns: 30% 70%;
     grid-template-rows: 1;
 }
-.mainGridSection{
-    border: 1px solid black;
-}
 
 
 #mGS1{
@@ -38,7 +35,7 @@ body{
 }
 .mGS1Section{
     position: relative;
-    border: 1px solid black;
+    
 }
 
 
@@ -86,7 +83,7 @@ body{
     position: absolute;
     right: 0;
     margin-right: 5%;
-    border: 1px solid black;
+    
     border-radius: 5px;
     width: 80px;
 }
@@ -100,9 +97,6 @@ body{
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 10% 90%;
-}
-.mGSProducts{
-    border: 1px solid black;
 }
 .productsInfo{
     display: flex;
