@@ -175,6 +175,7 @@ body{
 }
 
 .cleanCar{
+    z-index: +2;
     border-radius: 10px;
     transition: 0.2s;
     display: flex;
