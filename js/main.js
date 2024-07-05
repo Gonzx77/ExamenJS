@@ -67,5 +67,6 @@ document.addCamiseta = addCamiseta;
 const cleanCar = async() => {
     localStorage.clear();
     await mCarrito();
+    await numCarrito();
 }
 document.cleanCar = cleanCar;
