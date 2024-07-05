@@ -23,8 +23,6 @@ export const mAllProducts = async() =>{
         let imagen = abrigo.imagen;
         let precio = abrigo.precio;
 
-        console.log(imagen);
-
         let plantilla = `
         <div class="productDiv">
             <div class="productDivSection">
@@ -47,8 +45,6 @@ export const mAllProducts = async() =>{
         let namee = camiseta.nombre;
         let imagen = camiseta.imagen;
         let precio = camiseta.precio;
-
-        console.log(imagen);
 
         let plantilla = `
         <div class="productDiv">

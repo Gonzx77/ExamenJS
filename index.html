@@ -28,7 +28,7 @@
                     <div onclick="openPantalones()" class="menuElement">
                         <p class="menuText">Pantalones</p>
                     </div>
-                    <div class="menuElement carrito">
+                    <div onclick="openCarrito()" class="menuElement carrito">
                         <p class="menuText">Carrito</p>
                         <div id="cantidad">0</div>
                     </div>
@@ -38,6 +38,9 @@
                 </div>
             </div>
             <div class="mainGridSection products">
+                <div onclick="cleanCar()" class="cleanCar">
+                    Limpiar Carrito
+                </div>
                 <div class="mGSProducts productsInfo">
                     <p id="actualProducts">Todos</p>
                 </div>
